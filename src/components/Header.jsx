@@ -1,13 +1,9 @@
 import React from "react";
 
-const Header = () => {
-  return (
-    <header>
-      <div className="text-center">
-        <h3 className="p-4 fw-bold">Image - Vector | OVERLAY</h3>
-      </div>
-    </header>
-  );
-};
+const Header = () => (
+  <header className="text-black py-3 text-center">
+    <h1>Image Overlay Tool</h1>
+  </header>
+);
 
 export default Header;
